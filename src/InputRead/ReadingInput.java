@@ -7,7 +7,7 @@ public class ReadingInput {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Age: ");
         byte age = scanner.nextByte(); // getting byte as input
-        System.out.println("You are " + age + " years old");
+        System.out.println("You are " + age + " years old.");
 
         System.out.print("Name: ");
         String name = scanner.next().trim(); // getting string as input
