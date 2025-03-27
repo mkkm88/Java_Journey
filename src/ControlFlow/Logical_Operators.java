@@ -19,5 +19,10 @@ public class Logical_Operators {
         boolean isEligible = (hasHighIncome || hasHighCredit) && !hasCriminalRecord;
         System.out.println(isEligible);
 
+        // Ternary Operator
+        int income = 80_000;
+        String className =  (income > 100_000) ? "First Class" : "Economy Class";
+        System.out.println(className);
+
     }
 }
