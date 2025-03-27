@@ -15,5 +15,11 @@ public class If_Statement {
             System.out.println("It's a nice day");
         else
             System.out.println("It's cold");
+
+
+        // Simplify the if statement
+        int income = 120_000;
+        boolean hasHighIncome = (income > 100_000);
+        System.out.println(hasHighIncome);
     }
 }
