@@ -16,10 +16,10 @@ public class Solid_Rhombus {
                 System.out.print("*");
             }
 
-            // inner loop -> space print
+            /*// inner loop -> space print
             for (int j = 1; j<=i-1; j++){
                 System.out.print(" ");
-            }
+            }*/
             System.out.println();
         }
 
