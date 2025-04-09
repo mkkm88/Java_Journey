@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Palindromic_Number_Pyramid {
+public class PalindromicNumberPyramid {
     public static void main(String[] args) {
         int n = 5;
 

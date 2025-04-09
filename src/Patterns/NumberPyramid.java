@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Number_Pyramid {
+public class NumberPyramid {
     public static void main(String[] args) {
         int n = 5;
 

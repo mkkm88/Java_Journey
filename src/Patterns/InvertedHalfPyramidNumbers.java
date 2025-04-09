@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Inverted_Half_Pyramid_Numbers {
+public class InvertedHalfPyramidNumbers {
     public static void main(String[] args) {
         int n = 5;
 

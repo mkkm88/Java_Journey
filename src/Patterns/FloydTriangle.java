@@ -1,6 +1,6 @@
 package Patterns;
 
-public class Floyd_Triangle {
+public class FloydTriangle {
     public static void main(String[] args) {
         int n = 5;
         int number = 1;

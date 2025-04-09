@@ -1,14 +1,14 @@
 package Patterns;
 
-public class Half_Pyramid {
+public class HalfPyramidNumbers {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 5;
 
         // outer loop
-        for(int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             // inner loop
-            for (int j = 1; j <= i; j++){
-                System.out.print("*");
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j+" ");
             }
             System.out.println();
         }

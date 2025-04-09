@@ -1,8 +1,8 @@
 package Patterns;
 
-public class Solid_Rhombus {
+public class HollowRhombus {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 10;
 
         // outer loop
         for (int i = 1; i<=n; i++){
@@ -13,7 +13,11 @@ public class Solid_Rhombus {
 
             // inner loop -> star print
             for(int j = 1; j<=n; j++){
-                System.out.print("*");
+                if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
 
             /*// inner loop -> space print
@@ -22,6 +26,5 @@ public class Solid_Rhombus {
             }*/
             System.out.println();
         }
-
     }
 }
