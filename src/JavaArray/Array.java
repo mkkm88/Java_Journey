@@ -12,7 +12,7 @@ public class Array {
 
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
-        int numbers[] = new int[size];
+        int[] numbers = new int[size];
         System.out.println("Size of the array : " +  size);
 
         // input
