@@ -21,13 +21,27 @@ public class Multi_Dimensional_Arrays {
             }
         }
 
-        // output
-        for (int i = 0; i < rows; i++) {
+        // print 2D Array metrix -> output
+        /*for (int i = 0; i < rows; i++) {
             // columns
             for (int j = 0; j < cols; j++) {
                 System.out.print(numbers[i][j] + " ");
             }
             System.out.println();
+        }*/
+
+        // search given number and print indices
+
+        int x = scanner.nextInt();
+        System.out.println("The number you want to search is : " + x);
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if(numbers[i][j] == x) {
+                    System.out.println("x found at location : (" + i + "," + j + ")");
+                }
+            }
         }
+
     }
 }
