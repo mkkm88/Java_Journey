@@ -3,9 +3,7 @@ package Recursion;
 public class MoveCharToEnd {
     public static void moveAllX(String str, int idx, int count, String newString) {
         if (idx == str.length()) {
-            for (int i = 0; i < count; i++) {
-                newString += 'x';
-            }
+            newString = newString + "x".repeat(Math.max(0, count));
             System.out.println(newString);
             return;
         }
