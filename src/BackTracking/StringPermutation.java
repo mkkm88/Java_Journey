@@ -17,3 +17,6 @@ public class StringPermutation {
         printPermutation(str, "", 0);
     }
 }
+
+
+// time-complexity - O(n*n!)
