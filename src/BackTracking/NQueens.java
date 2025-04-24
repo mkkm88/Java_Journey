@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NQueens {
 
-    public boolean isSafe(int row, int col, char[][] board) {
+    public static boolean isSafe(int row, int col, char[][] board) {
         // horizontally
         for (int j=0; j<board.length; j++){
             if (board[row][j] == 'Q') {
@@ -54,7 +54,7 @@ public class NQueens {
         return true;
     }
 
-    public void saveBoard(char[][] board, List<List<String>> allBoards) {
+    public static void saveBoard(char[][] board, List<List<String>> allBoards) {
         List<String> newBoard = new ArrayList<>();
 
         for (int i=0; i<board.length; i++) {
@@ -70,7 +70,7 @@ public class NQueens {
         allBoards.add(newBoard);
     }
 
-    public void helper(char[][] board, List<List<String>> allBoards, int col) {
+    public static void helper(char[][] board, List<List<String>> allBoards, int col) {
         // base condition -> if col == n (means all 'Q' are in place) then store configuration of board in allBoards
         if (col == board.length) {
             saveBoard(board, allBoards);
@@ -86,7 +86,7 @@ public class NQueens {
         }
     }
 
-    public List<List<String>> solveNQueens(int n) {
+    public static List<List<String>> solveNQueens(int n) {
         List<List<String>> allBoards = new ArrayList<>();
         char[][] board = new char[n][n];
 
@@ -95,9 +95,8 @@ public class NQueens {
     }
 
     public static void main(String[] args) {
-        NQueens nq = new NQueens();
-        int n = 5;  // You can change this to any N
-        List<List<String>> solutions = nq.solveNQueens(n);
+        int n = 4;  // You can change this to any N
+        List<List<String>> solutions = solveNQueens(n);
 
         System.out.println(solutions);  // Prints the output in your required format
     }
