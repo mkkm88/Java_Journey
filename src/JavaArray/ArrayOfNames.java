@@ -16,7 +16,7 @@ public class ArrayOfNames {
 
         // output
         for (int i = 0; i < names.length; i++){
-            System.out.println("name " + (i+1) +" is : " + names[i]);
+            System.out.println(STR."name \{i + 1} is : \{names[i]}");
         }
     }
 

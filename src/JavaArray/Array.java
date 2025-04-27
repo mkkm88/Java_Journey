@@ -13,7 +13,7 @@ public class Array {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
         int[] numbers = new int[size];
-        System.out.println("Size of the array : " +  size);
+        System.out.println(STR."Size of the array : \{size}");
 
         // input
         for (int i = 0; i < size; i++){
@@ -21,12 +21,12 @@ public class Array {
         }
 
         int x = scanner.nextInt();
-        System.out.println("The number you want to search is : " + x);
+        System.out.println(STR."The number you want to search is : \{x}");
 
         // output
         for (int i = 0; i < numbers.length; i++) {
             if(numbers[i] == x){
-                System.out.println("x found at index : " + i);
+                System.out.println(STR."x found at index : \{i}");
             }
         }
     }
