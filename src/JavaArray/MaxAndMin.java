@@ -24,7 +24,7 @@ public class MaxAndMin {
                 max = number;
             }
         }
-        System.out.println("Largest number is : " + max);
-        System.out.println("Smallest number is : " + min);
+        System.out.println(STR."Largest number is : \{max}");
+        System.out.println(STR."Smallest number is : \{min}");
     }
 }
